@@ -1,0 +1,40 @@
+.dropdown-menu
+{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 10rem;
+	padding: 0.5rem 0;
+	margin: 0.125rem 0 0;
+	font-size: 1rem;
+	color: #212529;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 0.25rem;
+}
+
+#ImgPerfil
+{
+	min-width: 28rem;
+}
+
+.card-img
+{
+	width:100%;
+	border-radius: calc(0.25rem - 1px);
+}
+
+@media (min-width: 992px)
+{
+	.card-img
+	{
+		width: 500px;
+		border-radius: calc(0.25rem - 1px);
+	}
+}
